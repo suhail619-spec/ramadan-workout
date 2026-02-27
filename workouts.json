@@ -1,0 +1,83 @@
+{
+  "week": 1,
+  "sessions": [
+    {
+      "name": "Day A - Lower Body (ACL Safe)",
+      "exercises": [
+        {
+          "name": "Leg Press (partial depth)",
+          "sets": 3,
+          "reps": 12,
+          "rest_sec": 60,
+          "video": "https://www.youtube.com/watch?v=IZxyjW7MPJQ"
+        },
+        {
+          "name": "Seated Hamstring Curl",
+          "sets": 3,
+          "reps": 12,
+          "rest_sec": 60,
+          "video": "https://www.youtube.com/watch?v=1Tq3QdYUuHs"
+        },
+        {
+          "name": "Glute Bridge",
+          "sets": 3,
+          "reps": 15,
+          "rest_sec": 45,
+          "video": "https://www.youtube.com/watch?v=m2Zx-57cSok"
+        }
+      ]
+    },
+    {
+      "name": "Day B - Upper Strength",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": 3,
+          "reps": 12,
+          "rest_sec": 60,
+          "video": "https://www.youtube.com/watch?v=CAwf7n6Luuc"
+        },
+        {
+          "name": "Chest Press Machine",
+          "sets": 3,
+          "reps": 12,
+          "rest_sec": 60,
+          "video": "https://www.youtube.com/watch?v=gRVjAtPip0Y"
+        },
+        {
+          "name": "Cable Face Pull",
+          "sets": 3,
+          "reps": 15,
+          "rest_sec": 45,
+          "video": "https://www.youtube.com/watch?v=rep-qVOkqgk"
+        }
+      ]
+    },
+    {
+      "name": "Day C - Full Body + Swim",
+      "exercises": [
+        {
+          "name": "Dumbbell Romanian Deadlift",
+          "sets": 3,
+          "reps": 12,
+          "rest_sec": 60,
+          "video": "https://www.youtube.com/watch?v=2SHsk9AzdjA"
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "sets": 3,
+          "reps": 12,
+          "rest_sec": 60,
+          "video": "https://www.youtube.com/watch?v=8iPEnn-ltC8"
+        },
+        {
+          "name": "Swimming (easy pace 10 min)",
+          "sets": 1,
+          "reps": 10,
+          "rest_sec": 0,
+          "video": "https://www.youtube.com/watch?v=I0nXG02tpDw"
+        }
+      ]
+    }
+  ]
+}
