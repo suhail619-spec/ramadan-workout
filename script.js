@@ -41,3 +41,26 @@ function saveSession() {
 
   alert("Session Saved Successfully");
 }
+function loadHistory() {
+  const history = JSON.parse(localStorage.getItem("history")) || [];
+  const container = document.getElementById("historyContainer");
+  container.innerHTML = "";
+
+  if (history.length === 0) {
+    container.innerHTML = "No sessions saved yet.";
+    return;
+  }
+
+  history.forEach((session, index) => {
+    container.innerHTML += `
+      <div>
+        <strong>Date:</strong> ${session.date}<br>
+        Weight: ${session.weight} kg<br>
+        Knee Pain: ${session.kneePain}<br>
+        Calories: ${session.calories}<br>
+        Duration: ${session.duration} minutes
+        <hr>
+      </div>
+    `;
+  });
+}
